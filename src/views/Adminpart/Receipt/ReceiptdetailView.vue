@@ -12,7 +12,7 @@
 <div class="col-6 lg:col-offset-3">
 <Card>
 <template #header>
-<div class="col-6 lg:col-offset-10"><h2>ใบรับสินค้า</h2></div>
+<div class="col-3 lg:col-offset-9 pl-6"><h2>ใบรับสินค้า</h2></div>
 </template>
 
 
@@ -43,48 +43,29 @@
         </div>
 
 <div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ที่อยู่: </div>
+            <div class="flex align-items-center font-bold text-black m-2 px-5  ">ที่อยู่: </div>
             <div class="flex align-items-center font-bold text-black m-3 pb-6 py-3 ">{{byid.venderAddress}}</div>
             <div class="flex align-items-center font-bold text-black m-2 pl-7 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
         </div>
 
-<div class="flex">
-    <div class="topbottomright">
-            <div class="flex align-items-center font-bold text-black m-2 pl-5 py-3 ">เลขที่ภาษี: </div>
-            <div class="flex align-items-center font-bold text-black pl-2 py-3 ">-</div>
-    </div> 
-    <div class="topbottomleft">
-        <div class="flex justify-contents-end ">
-        <!-- เลือกตำแหน่ง -->
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">1</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">2</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">3</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">4</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">5</div>
+<div class="conti">
+    <div class="tax">
+            <div class="flex align-items-center font-bold text-black m-2 pl-5 py-3 ">เลขที่ภาษี:&nbsp;&nbsp;&nbsp;&nbsp;-</div>     
     </div>
-    </div>
-
-        </div>
-
-
-        
-<div class="flex justify-content-end flex-wrap card-container green-container">
-        <!-- เลือกตำแหน่ง -->
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">1</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">2</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">3</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">4</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem font-bold text-black  m-2">5</div>
-
-</div>
+</div>            
+<!-- <div class="flex-row">
+                <div class="flex-2 flex align-items-center  font-bold text-black  m-3 px-5 pl-3  "><i class="pi pi-user">&nbsp;{{byid.employee}}</i></div>
+                <div class="flex-2 flex align-items-center   font-bold text-black  m-3 px-5 pl-3  "><i class="pi pi-phone">&nbsp;telephone</i></div>
+                <div class="flex-2 flex align-items-center   font-bold text-black  m-3 px-5 pl-3  "><i class="pi pi-envelope">&nbsp;E-mail</i></div>
+            </div> -->   
 
 
 
 <div class="flex">
             <div class="flex align-items-center font-bold text-black m-2 pl-5 pb-8 ">เรียนคุณ: </div>
-        </div>
 </div>
 
+</div>
 </template>
 
 
