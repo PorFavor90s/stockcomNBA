@@ -21,13 +21,32 @@
 <div class="flex">
             <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ผู้ซื้อ: </div>
             <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">inputhere</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-7 py-3 "><i class="pi pi-phone">&nbsp;0600545046</i></div>
-        </div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 py-3 "><i class="pi pi-phone">&nbsp; 060-0545046</i></div>
+            
+<div class="card">
+    <div class="flex flex-row-reverse flex-wrap card-container yellow-container">
+        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">0</div>
+        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">0.5</div>
+        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">1</div>
+        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">2</div>
+        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">3</div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="card">
+    <div class="flex flex-row-reverse flex-wrap card-container yellow-container">
+        <div class="flex align-items-center justify-content-center  surface-100 font-bold text-black border-round m-2 col-4">FindPosition</div>
+    </div>
+</div>
+
 
 <div class="flex">
             <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ที่อยู่: </div>
             <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">inputhere</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-7 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
         </div>
 
 <div class="flex">
@@ -39,13 +58,13 @@
         <div class="flex">
             <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ผู้ขาย: </div>
             <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">{{byid.vender}}</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-7 py-3 "><i class="pi pi-phone">&nbsp;{{byid.venderTelephone}}</i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 py-3 "><i class="pi pi-phone">&nbsp; {{byid.venderTelephone}}</i></div>
         </div>
 
 <div class="flex">
             <div class="flex align-items-center font-bold text-black m-2 px-5  ">ที่อยู่: </div>
             <div class="flex align-items-center font-bold text-black m-3 pb-6 py-3 ">{{byid.venderAddress}}</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-7 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
         </div>
 
 <div class="conti">
