@@ -80,11 +80,18 @@
 
 <div class="centerr">
 <div class="flex surface-100 font-bold text-black border-round">
-    <div class="col-7">คำอธิบาย</div>
-    <div class="col">จำนวน</div>
-    <div class="col">ราคา</div>
-    <div class="col">ส่วนลด</div>
-    <div class="col">VAT</div>
+        <div class="col-7">คำอธิบาย <br>
+            <div class="flex-row ">
+                <h3>1</h3>
+                <h3>2</h3>
+                <h3>3</h3>
+            </div>
+        </div>
+    <hr>
+    <div class="col">จำนวน</div><hr>
+    <div class="col">ราคา</div><hr>
+    <div class="col">ส่วนลด</div><hr>
+    <div class="col">VAT</div><hr>
     <div class="col-2">มูลค่าก่อนภาษี</div>
    
 </div>
@@ -96,7 +103,7 @@
 
 
 <template #content>
-<h3>พนักงาน : {{byid.employee}}<br/>
+<h3>พนักงาน {{byid.employee}}<br/>
 ชื่อผู้ขาย : {{byid.vender}}<br/>
 ที่อยู่ผู้ขาย : {{byid.venderAddress}}<br/>
 โทรศัพท์ผู้ขาย : {{byid.venderTelephone}}<br/>
