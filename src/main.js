@@ -42,6 +42,7 @@ import Rating from 'primevue/rating';
 import Slider from 'primevue/slider';
 import VirtualScroller from 'primevue/virtualscroller';
 import Paginator from 'primevue/paginator';
+import Divider from 'primevue/divider';
 
 
 import 'primevue/resources/themes/fluent-light/theme.css';
@@ -94,5 +95,6 @@ app.component('Rating',Rating);
 app.component('Slider',Slider);
 app.component('VirtualScroller',VirtualScroller);
 app.component('Paginator',Paginator);
+app.component('Divider',Divider);
 
 app.mount("#app");

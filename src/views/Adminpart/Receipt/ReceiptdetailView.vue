@@ -79,7 +79,15 @@
 </div>
 
 <div class="centerr">
-
+<div class="flex surface-100 font-bold text-black border-round">
+    <div class="col-7">คำอธิบาย</div>
+    <div class="col">จำนวน</div>
+    <div class="col">ราคา</div>
+    <div class="col">ส่วนลด</div>
+    <div class="col">VAT</div>
+    <div class="col-2">มูลค่าก่อนภาษี</div>
+   
+</div>
 </div>
 
 
