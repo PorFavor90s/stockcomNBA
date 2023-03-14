@@ -19,72 +19,70 @@
 <template #subtitle>
 <div class="top">
 <div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ผู้ซื้อ: </div>
-            <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">inputhere</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-8 py-3 "><i class="pi pi-phone">&nbsp; 060-0545046</i></div>
-            
-<div class="card">
-    <div class="flex flex-row-reverse flex-wrap card-container yellow-container">
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">0</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">0.5</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">1</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">2</div>
-        <div class="flex align-items-center justify-content-center w-4rem h-4rem bg-gray-200 font-bold text-gray-900 border-round m-2">3</div>
-    </div>
+            <div class="flex align-items-center font-bold text-black m-3 pl-4 ">ผู้ซื้อ: </div>
+            <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inputhere</div>
+            <div class="flex-row">
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 pt-7 "><i class="pi pi-phone"> 060-0545046</i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 pt-2"><i class="pi pi-envelope"> email@email.com<br><br>
+            <i class="pi pi-globe"> write http here </i></i></div>
+            </div>
 </div>
-
-
+<div class="flex">
+            <div class="flex align-items-center font-bold text-black m-2 px-5 pb-8 ">ที่อยู่:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.........</div>
+</div>
+<div class="flex pt-1">
+            <div class="flex align-items-center font-bold text-black m-2 pl-5 pb-8 ">เลขที่ภาษี:&nbsp;&nbsp;.........</div>
 </div>
 
 <div class="card">
-    <div class="flex flex-row-reverse flex-wrap card-container yellow-container">
-        <div class="flex align-items-center justify-content-center  surface-100 font-bold text-black border-round m-2 col-4">FindPosition</div>
+    <div class="flex flex-row-reverse flex-wrap card-container ">
+        <div class="flex   surface-100 font-bold text-black border-round m-2 col-4">
+            เลขที่เอกสาร :<br>
+            วันที่ออก : <br>
+            เครดิต : <br>
+            วันที่ครบกำหนด : <br>
+            อ้างอิง : <br>
+            เลขที่ใบกำกับภาษี : <br>
+            วันที่ใบกำกับภาษี : <br>
+        </div>
     </div>
 </div>
-
-
-<div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ที่อยู่: </div>
-            <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">inputhere</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-8 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
-        </div>
-
-<div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 pl-5 py-3 ">เลขที่ภาษี: </div>
-            <div class="flex align-items-center font-bold text-black pl-1 py-3 ">inputhere</div>
-            
-        </div>
         <hr>
-        <div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 px-5 py-3 ">ผู้ขาย: </div>
-            <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">{{byid.vender}}</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-8 py-3 "><i class="pi pi-phone">&nbsp; {{byid.venderTelephone}}</i></div>
+<div class="flex w-4rem h-4rem">
+    <div class="mixedit">
+        <div class="flex align-content-start font-bold text-black m-2 pl-4 col-12">vender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{byid.vender}}
+            <div class="flex-row pl-3 pb-8">
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 "><i class="pi pi-phone">&nbsp;&nbsp;{{byid.venderTelephone}}</i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-8 pt-2"><i class="pi pi-envelope">&nbsp;&nbsp;email@email.com<br><br>
+            <i class="pi pi-globe">&nbsp;&nbsp;write http here </i></i></div>
+            </div>
+            <div class="flex align-content-end font-bold text-black m-3 col-3 pr-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ติดต่อกลับที่ :</div>
+            <div class="flex-column grid ">
+            <div class="flex align-items-center font-bold text-black m-2 pt-4 pr-7"><br><i class="pi pi-user">&nbsp;{{byid.employee}}</i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pt-1 "><i class="pi pi-phone">&nbsp;099-8623156</i></div>
+            <div class="flex align-items-center font-bold text-black m-2 pt-3 "><i class="pi pi-envelope">&nbsp;Emailhere@email.com</i></div>
+            </div>   
         </div>
-
+    </div>
+</div>
 <div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 px-5  ">ที่อยู่: </div>
-            <div class="flex align-items-center font-bold text-black m-3 pb-6 py-3 ">{{byid.venderAddress}}</div>
-            <div class="flex align-items-center font-bold text-black m-2 pl-8 pb-5"><i class="pi pi-envelope"> email@email.com<br><br><i class="pi pi-globe"> write http down there</i></i></div>
-        </div>
-
-<div class="conti">
+            <div class="flex align-items-center font-bold text-black m-2 pl-4  pt-5">ที่อยู่:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{byid.venderAddress}}</div>
+</div>
+<div class="continue">
     <div class="tax">
-            <div class="flex align-items-center font-bold text-black m-2 pl-5 py-3 ">เลขที่ภาษี:&nbsp;&nbsp;&nbsp;&nbsp;-</div>     
+            <div class="flex align-items-center font-bold text-black m-2 pl-4 pt-5 ">เลขที่ภาษี:&nbsp;&nbsp;&nbsp;-</div>     
     </div>
 </div>            
-<!-- <div class="flex-row">
-                <div class="flex-2 flex align-items-center  font-bold text-black  m-3 px-5 pl-3  "><i class="pi pi-user">&nbsp;{{byid.employee}}</i></div>
-                <div class="flex-2 flex align-items-center   font-bold text-black  m-3 px-5 pl-3  "><i class="pi pi-phone">&nbsp;telephone</i></div>
-                <div class="flex-2 flex align-items-center   font-bold text-black  m-3 px-5 pl-3  "><i class="pi pi-envelope">&nbsp;E-mail</i></div>
-            </div> -->   
-
-
-
 <div class="flex">
-            <div class="flex align-items-center font-bold text-black m-2 pl-5 pb-8 ">เรียนคุณ: </div>
+            <div class="flex align-items-center font-bold text-black m-2 pl-4 pb-8 ">เรียนคุณ: </div>
+</div>
 </div>
 
+<div class="centerr">
+
 </div>
+
+
 </template>
 
 
