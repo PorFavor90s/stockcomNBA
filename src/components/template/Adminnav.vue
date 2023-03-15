@@ -13,9 +13,8 @@ export default {
     items: [
       {
         label: "Home",
-        icon: "pi pi-home",
+        icon: "pi pi-heart",
         to : '/'
-        // ด้านบนนี้เลือกได้นะว่าอยากจะเอา nav ทำดาหรือ nav แบบแอดมิน ส่วนตัวแนะ nav ทำดา มันจะได้ไปในทางเดียวกัน
       },
       {
         label: "Brand",

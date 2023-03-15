@@ -93,10 +93,12 @@ export default {
     createuser(){
       this.$router.push('/createu')
     },
+    // สร้าง method นี้ไว้รอฟังคชั่น PUSH ไปอัพเดตข้อมูล
     // edituser(){
     //   this.$router.push('/editu')
     // },
     
+    // ทดลองสร้าง method ยืนยันการลบข้อมูล
     // confirmation() {
     //     this.$confirm.require({
     //     message: 'คุณต้องการลบผู้ใช้นี้หรือไม่?',
