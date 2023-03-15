@@ -77,33 +77,71 @@
             <div class="flex align-items-center font-bold text-black m-2 pl-4 pb-8 ">เรียนคุณ: </div>
 </div>
 </div>
+</template>
 
+
+<template #content>
 <div class="centerr">
 <div class="flex surface-100 font-bold text-black border-round">
-        <div class="col-7">คำอธิบาย <br>
-            <div class="flex-row ">
-                <h3>1</h3>
-                <h3>2</h3>
-                <h3>3</h3>
-            </div>
-        </div>
+        <div class="col-7">คำอธิบาย <br> 
+        </div> 
     <hr>
     <div class="col">จำนวน</div><hr>
     <div class="col">ราคา</div><hr>
     <div class="col">ส่วนลด</div><hr>
     <div class="col">VAT</div><hr>
     <div class="col-2">มูลค่าก่อนภาษี</div>
-   
-</div>
 </div>
 
-
+<div class="flex-row ">
+    <h3>1</h3>
+    <h3>2</h3>
+    <h3>3</h3>
+</div>
+<hr>
+<div class="flex pt-2">
+    <div class="col-12 md:col-6 lg:col-1"><b><i class="pi pi-list"></i> สรุป</b></div>
+    <div class="col-12 md:col-6 lg:col-5"><b>มูลค่ารายการไม่มีหรือยกเว้นภาษีมูลค่าเพิ่ม</b>  
+    <br><b>จำนวนเงินทั้งสิ้น</b>  
+    </div>
+    <div class="col-12 md:col-6 lg:col-2 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.....บาท
+    <br>จุดบาทถ้วน
+    </div>
+    <div class="flex align-items-center  surface-100 font-bold text-black border-round col-12 md:col-6 lg:col-4">
+      จำนวนเงินทั้งสิ้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;................. บาท
+    </div>
+</div>
+    <div class="flex col-12">
+        <div class="col-8"></div>
+        <div class="col-4"><b> จำนวนเงินที่ถูกหัก ณ ที่จ่าย 0.00 บาท<br>จำนวนเงินที่ต้องชำระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...........บาท</b></div>
+    </div>
+<hr>
+<div class="flex col-12">
+    <div class="col-2"><i class="pi pi-wallet"></i><b> ชำระเงิน</b></div>
+    <div class="col-3 pl-3"><b>วันที่ชำระ :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;............  <br><b>จำนวนเงินรวม :</b> ...........</div>
+    <div class="col-6 pl-5">สำรองรับจ่าย ..................................................</div>
+    <div class="col-2">.........บาท</div>
+</div>
+<hr>
+<div class="col-2"><i class="pi pi-comment"><b> หมายเหตุ</b></i></div>
+<hr>
+<div class="col-2"><span><i class="pi pi-verified"><b> การรับรอง</b></i></span></div>
+<div class="flex col-12">
+<div class="col-2"><span><b><small>แสกนเพื่อเปิดด้วยเว็บไซต์</small></b></span></div>
+<div class="col-2"><span><b><small>ผู้ออกเอกสาร(ผู้ซื้อ)</small></b></span></div>
+<div class="col-2"><span><b><small>ผู้อนุมัติเอกสาร(ผู้ซื้อ)</small></b></span></div>
+<div class="col-2"><span><b><small>ตราประทับ(ผู้ซื้อ)</small></b></span></div>
+<div class="col-2"><span><b><small>ผู้รับเอกสาร(ผู้ขาย)</small></b></span></div>
+<div class="col-2"><span><b><small>ตราประทับ(ผู้ขาย)</small></b></span></div>
+</div>
+</div>
 </template>
 
 
 
-<template #content>
-<h3>พนักงาน {{byid.employee}}<br/>
+
+
+<!-- <h3>พนักงาน {{byid.employee}}<br/>
 ชื่อผู้ขาย : {{byid.vender}}<br/>
 ที่อยู่ผู้ขาย : {{byid.venderAddress}}<br/>
 โทรศัพท์ผู้ขาย : {{byid.venderTelephone}}<br/>
@@ -124,11 +162,11 @@ ID ของสินค้า:{{value._id}}<br/>
 <br/>
 </div>
 </div>
-</h3>
-</template>
+</h3> -->
+
 
 <template #footer>
-<div class="col-8 lg:col-offset-8"><h5>สร้างเมื่อ :{{byid.createdAt}}</h5></div>
+<div class="col-4 lg:col-offset-9"><h5>สร้างเมื่อ:{{byid.createdAt}}</h5></div>
 </template>
 </Card>
 </div>
