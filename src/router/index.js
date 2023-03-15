@@ -8,7 +8,7 @@ const routes = [
   },{
     path : "/",
     name : 'dashboard',
-    component : ()=>import('../views/main/DashboardView.vue')
+    component : ()=>import('../views/main(Home)/DashboardView.vue')
   },
   {
     path : '/employmanage',
@@ -24,11 +24,6 @@ const routes = [
     path: '/productmanage',
     name: 'productmanage',
     component: () => import('../views/Employpart/ProductmanageView.vue')
-  },
-  {
-    path: '/admindash',
-    name: 'admindash',
-    component: () => import('../views/main/AdmindashView.vue')
   },
   {
     path: '/adminnav',

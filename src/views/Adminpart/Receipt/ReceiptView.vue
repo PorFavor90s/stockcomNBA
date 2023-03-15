@@ -35,7 +35,8 @@
       &nbsp;
       <InputText id="receiptnumber" type="number" v-model="ampro" placeholder="จำนวนสินค้าที่ต้องการ"/>
       &nbsp;
-      <Button icon="pi pi-caret-down" @click="addproduct"></Button>
+      <Button icon="pi pi-caret-down" @click="addproduct" v-tooltip.top="'กดเพื่อเพิ่มสินค้า'"></Button>&nbsp;
+      <Button class="p-button-rounded p-button-danger" icon="pi pi-trash" @click="deletepro" v-tooltip.bottom="'ปุ่มนี้จะลบสินค้าล่างสุดเสมอ'"></Button>
       <!-- &nbsp; -->
       <!-- <Button icon="pi pi-trash" class="p-button-rounded p-button-warning" @click="deletepro"/> -->
 </span>
@@ -50,7 +51,9 @@
             </template>
             </Column>
             <Column field="amount" header="จำนวนสินค้า"></Column>
-            <template><Button icon="pi pi-trash" class="p-button-rounded p-button-warning" @click="deletepro"/></template>
+            <!-- <Column header="ลบสินค้า">
+            <template #body><Button class="p-button-rounded p-button-danger" icon="pi pi-trash"  @click="deletepro"></Button></template>
+            </Column> -->
         </DataTable>
         <!-- <Button icon="pi pi-trash" class="p-button-rounded p-button-warning" @click="deletepro"/> -->
     </div>
@@ -109,7 +112,13 @@ export default {
         // คาไว้ตรงนี้นะในส่วนสร้างปุ่มลบข้อมูลที่เพิ่มเข้ามา
 
         deletepro() {
-            console.log(this.deletepro);
+            let prodata = this.product;
+            prodata.pop({
+                productId: this.selectproduct._id,
+                amount: this.ampro,
+            });
+            this.product = prodata;
+            
         },
 
         cancelreceipt(){
