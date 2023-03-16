@@ -37,13 +37,13 @@
 <div class="card">
     <div class="flex flex-row-reverse flex-wrap card-container ">
         <div class="flex   surface-100 font-bold text-black border-round m-2 col-4">
-            เลขที่เอกสาร :<br>
-            วันที่ออก : <br>
+            เลขที่เอกสาร :&nbsp;&nbsp;{{byid.receiptNo}}<br>
+            วันที่ออก :&nbsp;{{byid.createdAt}}<br>
             เครดิต : <br>
             วันที่ครบกำหนด : <br>
-            อ้างอิง : <br>
-            เลขที่ใบกำกับภาษี : <br>
-            วันที่ใบกำกับภาษี : <br>
+            อ้างอิง :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br>
+            เลขที่ใบกำกับภาษี :&nbsp;&nbsp;-<br>
+            วันที่ใบกำกับภาษี :&nbsp;&nbsp;&nbsp;&nbsp;-<br>
         </div>
     </div>
 </div>
@@ -99,25 +99,25 @@
     <h3>3</h3>
 </div>
 <hr>
-<div class="flex pt-2">
-    <div class="col-12 md:col-6 lg:col-1"><b><i class="pi pi-list"></i> สรุป</b></div>
-    <div class="col-12 md:col-6 lg:col-5"><b>มูลค่ารายการไม่มีหรือยกเว้นภาษีมูลค่าเพิ่ม</b>  
+<div class="flex col-11 pt-2">
+    <div class="col-12 md:col-6 lg:col-2"><b><i class="pi pi-server"></i> สรุป</b></div>
+    <div class="col-12 md:col-6 lg:col-6"><b>มูลค่ารายการไม่มีหรือยกเว้นภาษีมูลค่าเพิ่ม</b>  
     <br><b>จำนวนเงินทั้งสิ้น</b>  
     </div>
-    <div class="col-12 md:col-6 lg:col-2 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.....บาท
-    <br>จุดบาทถ้วน
+    <div class="col-12 md:col-6 lg:col-1 ">.......บาท
+    <br>ver.อ่าน
     </div>
     <div class="flex align-items-center  surface-100 font-bold text-black border-round col-12 md:col-6 lg:col-4">
-      จำนวนเงินทั้งสิ้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;................. บาท
+      จำนวนเงินทั้งสิ้น&nbsp;...................... บาท
     </div>
 </div>
     <div class="flex col-12">
-        <div class="col-8"></div>
-        <div class="col-4"><b> จำนวนเงินที่ถูกหัก ณ ที่จ่าย 0.00 บาท<br>จำนวนเงินที่ต้องชำระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...........บาท</b></div>
+        <div class="col-7"></div>
+        <div class="col-5 pl-5"><b> จำนวนเงินที่ถูกหัก ณ ที่จ่าย 0.00 บาท<br>จำนวนเงินที่ต้องชำระ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...........บาท</b></div>
     </div>
 <hr>
-<div class="flex col-12">
-    <div class="col-2"><i class="pi pi-wallet"></i><b> ชำระเงิน</b></div>
+<div class="flex col-10">
+    <div class="col-2 pr-1"><i class="pi pi-money-bill"></i><b> ชำระเงิน</b></div>
     <div class="col-3 pl-3"><b>วันที่ชำระ :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;............  <br><b>จำนวนเงินรวม :</b> ...........</div>
     <div class="col-6 pl-5">สำรองรับจ่าย ..................................................</div>
     <div class="col-2">.........บาท</div>
