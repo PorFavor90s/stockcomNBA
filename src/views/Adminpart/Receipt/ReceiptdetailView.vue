@@ -39,7 +39,7 @@
         <div class="flex   surface-100 font-bold text-black border-round m-2 col-4">
             เลขที่เอกสาร :&nbsp;&nbsp;{{byid.receiptNo}}<br>
             วันที่ออก :&nbsp;{{byid.createdAt}}<br>
-            เครดิต : <br>
+            เครดิต :&nbsp;&nbsp;&nbsp;&nbsp;7 วัน<br>
             วันที่ครบกำหนด : <br>
             อ้างอิง :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br>
             เลขที่ใบกำกับภาษี :&nbsp;&nbsp;-<br>
@@ -83,7 +83,7 @@
 <template #content>
 <div class="centerr">
 <div class="flex surface-100 font-bold text-black border-round">
-        <div class="col-7">คำอธิบาย <br> 
+        <div class="col-7">คำอธิบาย<br> 
         </div> 
     <hr>
     <div class="col">จำนวน</div><hr>
@@ -93,7 +93,7 @@
     <div class="col-2">มูลค่าก่อนภาษี</div>
 </div>
 
-<div class="flex-row ">
+<div class="flex-row pl-2 ">
     <h3>1</h3>
     <h3>2</h3>
     <h3>3</h3>
