@@ -109,8 +109,6 @@ export default {
             this.product = prodata;
             console.log('prodata',prodata);
         },
-        // คาไว้ตรงนี้นะในส่วนสร้างปุ่มลบข้อมูลที่เพิ่มเข้ามา
-
         deletepro() {
             let prodata = this.product;
             prodata.pop({

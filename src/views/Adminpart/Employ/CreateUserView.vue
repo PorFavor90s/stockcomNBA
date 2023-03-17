@@ -8,8 +8,7 @@
     <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="name" placeholder="กรุณาใส่ชื่อของท่าน"/><br/></div>
     <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="username" placeholder="ชื่อผู้ใช้งาน" v-tooltip="'ควรตั้งให้ไม่ซ้ำกับชื่อผู้ใช้งานอื่น และจะถูกใช้เป็นชื่อในการล็อคอิน'"/><br/></div>
     <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="password" placeholder="รหัสผ่าน" v-tooltip="'ควรตั้งรหัสผ่าน 8-12 ตัวอักษรขึ้นไป ประกอบด้วยตัวเลขและตัวอักษร'"/><br/></div>
-    <!-- ถ้าต้องการล็อคอินแบบจริงจัง ใช้ตัวสร้างรหัสแบบนี้ -->
-    <!-- <div class="col-6 lg:col-offset-5"><Password v-model="ad" toggleMask></Password></div> -->
+  
     <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="level" placeholder="ตำแหน่งงาน" v-tooltip="'ตำแหน่งงานสามารถระบุได้ 2 ตำแหน่งคือ admin และ employee เท่านั้น'"/><br/></div>
   <div class="col-6 lg:col-offset-5">
     <Button icon="pi pi-check-square" label="ยืนยัน" @click="submituser()"></Button>
@@ -19,10 +18,6 @@
 <script>
 import axios from 'axios';
 
-// const [name,setName] = userState('');
-// const [username,setUserame] = userState('');
-// const [password,setpassword] = userState('');
-// const [level,setLevel] = userState('');
 
 export default {
     data:()=>({
