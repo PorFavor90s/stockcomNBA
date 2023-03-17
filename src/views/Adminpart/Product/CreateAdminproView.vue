@@ -7,7 +7,7 @@
     </div>
       <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="employee" disabled/><br/></div>
       <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="name" placeholder="กรุณาใส่ชื่อสินค้า" v-tooltip="'ชื่อสินค้าไม่ควรซ้ำกัน'"/><br/></div>
-      <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="detail" placeholder="ใส่รายละเอียดเพิ่มเติม"/><br/></div>
+      <div class="col-6 lg:col-offset-5"><InputText type="text" v-model="detail" placeholder="ใส่รายละเอียดสินค้าเพิ่มเติม"/><br/></div>
       <div class="col-6 lg:col-offset-5">
       <Dropdown v-model="selectbrand" :options="brands" optionLabel="name" optionValue="name" placeholder="กรุณาเลือกแบรนด์"></Dropdown>
       </div>

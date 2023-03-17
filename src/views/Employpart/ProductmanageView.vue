@@ -4,7 +4,7 @@
         <h1>ระบบจัดการสต๊อกสินค้า</h1>
     </div>
     <div class="col-12 text-pink-200">
-    <h3>กำลังทำการพัฒนา...</h3>
+    <h3>ปุ่มด้านล่างจะพาไปยังหน้าทดสอบ Component ต่างๆ</h3>
   </div>
   <div>
     <Button icon="pi pi-heart" class="p-button-rounded p-button-help p-button-text" @click="lettest()"/>
