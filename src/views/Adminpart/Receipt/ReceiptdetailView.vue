@@ -20,7 +20,7 @@
 <div class="top">
 <div class="flex">
             <div class="flex align-items-center font-bold text-black m-3 pl-4 ">ผู้ซื้อ: </div>
-            <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inputhere</div>
+            <div class="flex align-items-center font-bold text-black m-2 pb-6 py-3 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;..........</div>
             <div class="flex-row">
             <div class="flex align-items-center font-bold text-black m-2 pl-8 pt-7 "><i class="pi pi-phone"> 060-0545046</i></div>
             <div class="flex align-items-center font-bold text-black m-2 pl-8 pt-2"><i class="pi pi-envelope"> email@email.com<br><br>
@@ -176,7 +176,7 @@ ID ของสินค้า:{{value._id}}<br/>
 import axios from 'axios';
 export default {
     created() {
-        document.title = "ใบรับสินค้า";
+        document.title = "ใบรับสินค้าเลขที่";
     },
     data(){
         return{
